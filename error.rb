@@ -1,0 +1,1 @@
+class MoveError < ArgumentError ; end

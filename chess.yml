@@ -1,0 +1,281 @@
+--- !ruby/object:Game
+player2: !ruby/object:HumanPlayer
+  color: B
+player1: !ruby/object:HumanPlayer
+  color: W
+board: &1 !ruby/object:Board
+  grid:
+  - - !ruby/object:Rook
+      color: W
+      pos:
+      - 0
+      - 0
+      symbol: "♖"
+      board: *1
+    - !ruby/object:Knight
+      color: W
+      pos:
+      - 1
+      - 0
+      symbol: "♘"
+      board: *1
+    - !ruby/object:Bishop
+      color: W
+      pos:
+      - 2
+      - 0
+      symbol: "♗"
+      board: *1
+    - 
+    - !ruby/object:King
+      color: W
+      pos:
+      - 4
+      - 0
+      symbol: "♔"
+      board: *1
+    - !ruby/object:Bishop
+      color: W
+      pos:
+      - 5
+      - 0
+      symbol: "♗"
+      board: *1
+    - !ruby/object:Knight
+      color: W
+      pos:
+      - 6
+      - 0
+      symbol: "♘"
+      board: *1
+    - !ruby/object:Rook
+      color: W
+      pos:
+      - 7
+      - 0
+      symbol: "♖"
+      board: *1
+  - - !ruby/object:Pawn
+      color: W
+      pos:
+      - 0
+      - 1
+      symbol: "♙"
+      board: *1
+      moved: false
+    - !ruby/object:Pawn
+      color: W
+      pos:
+      - 1
+      - 1
+      symbol: "♙"
+      board: *1
+      moved: false
+    - 
+    - !ruby/object:Pawn
+      color: W
+      pos:
+      - 3
+      - 1
+      symbol: "♙"
+      board: *1
+      moved: false
+    - !ruby/object:Pawn
+      color: W
+      pos:
+      - 4
+      - 1
+      symbol: "♙"
+      board: *1
+      moved: false
+    - !ruby/object:Pawn
+      color: W
+      pos:
+      - 5
+      - 1
+      symbol: "♙"
+      board: *1
+      moved: false
+    - !ruby/object:Pawn
+      color: W
+      pos:
+      - 6
+      - 1
+      symbol: "♙"
+      board: *1
+      moved: false
+    - !ruby/object:Pawn
+      color: W
+      pos:
+      - 7
+      - 1
+      symbol: "♙"
+      board: *1
+      moved: false
+  - - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - !ruby/object:Queen
+      color: W
+      pos:
+      - 0
+      - 3
+      symbol: "♕"
+      board: *1
+    - 
+    - !ruby/object:Pawn
+      color: W
+      pos:
+      - 2
+      - 3
+      symbol: "♙"
+      board: *1
+      moved: false
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - 
+    - 
+    - 
+    - !ruby/object:Pawn
+      color: B
+      pos:
+      - 3
+      - 5
+      symbol: "♟"
+      board: *1
+      moved: false
+    - 
+    - 
+    - 
+    - !ruby/object:Pawn
+      color: B
+      pos:
+      - 7
+      - 5
+      symbol: "♟"
+      board: *1
+      moved: false
+  - - !ruby/object:Pawn
+      color: B
+      pos:
+      - 0
+      - 6
+      symbol: "♟"
+      board: *1
+      moved: false
+    - !ruby/object:Pawn
+      color: B
+      pos:
+      - 1
+      - 6
+      symbol: "♟"
+      board: *1
+      moved: false
+    - !ruby/object:Pawn
+      color: B
+      pos:
+      - 2
+      - 6
+      symbol: "♟"
+      board: *1
+      moved: false
+    - 
+    - !ruby/object:Pawn
+      color: B
+      pos:
+      - 4
+      - 6
+      symbol: "♟"
+      board: *1
+      moved: false
+    - !ruby/object:Pawn
+      color: B
+      pos:
+      - 5
+      - 6
+      symbol: "♟"
+      board: *1
+      moved: false
+    - !ruby/object:Pawn
+      color: B
+      pos:
+      - 6
+      - 6
+      symbol: "♟"
+      board: *1
+      moved: false
+    - 
+  - - !ruby/object:Rook
+      color: B
+      pos:
+      - 0
+      - 7
+      symbol: "♜"
+      board: *1
+    - !ruby/object:Knight
+      color: B
+      pos:
+      - 1
+      - 7
+      symbol: "♞"
+      board: *1
+    - !ruby/object:Bishop
+      color: B
+      pos:
+      - 2
+      - 7
+      symbol: "♝"
+      board: *1
+    - !ruby/object:Queen
+      color: B
+      pos:
+      - 3
+      - 7
+      symbol: "♛"
+      board: *1
+    - !ruby/object:King
+      color: B
+      pos:
+      - 4
+      - 7
+      symbol: "♚"
+      board: *1
+    - !ruby/object:Bishop
+      color: B
+      pos:
+      - 5
+      - 7
+      symbol: "♝"
+      board: *1
+    - !ruby/object:Knight
+      color: B
+      pos:
+      - 6
+      - 7
+      symbol: "♞"
+      board: *1
+    - !ruby/object:Rook
+      color: B
+      pos:
+      - 7
+      - 7
+      symbol: "♜"
+      board: *1
+  lost_black_pieces: []
+  lost_white_pieces: []
